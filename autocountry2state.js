@@ -268,9 +268,10 @@ function setcountry(countryname, index) {
 	//countryoption += "states['"+index+"']=new Array("") ; <br>"; 
 }
 document.getElementById("country").innerHTML = countryoption;
-document.querySelectorAll('.country').forEach(function(el) {
-    el.innerHTML = countryoption;
-});
+var cinput = document.getElementsByClassName("country");
+for (var i = 0; i < slides.length; i++) {
+   cinput[i].innerHTML = countryoption;
+}
 
 
 document.getElementById("country").addEventListener("click", function() {
