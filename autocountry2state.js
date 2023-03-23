@@ -267,7 +267,7 @@ function setcountry(countryname, index) {
 	}
 	//countryoption += "states['"+index+"']=new Array("") ; <br>"; 
 }
-document.getElementById("country");
+document.getElementById("country").innerHTML = countryoption;
 document.querySelectorAll('.country').forEach(function(el) {
     el.innerHTML = countryoption;
 });
