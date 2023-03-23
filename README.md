@@ -2,9 +2,13 @@
 get State name from Country name JS
 
 # usage
-State / Region :<select name="state" class="state"></select>
-Country :<select name="country" class="country"></select>
+create state select tag with  name="state" & class="state" <br>
+then
+create country select tag with  name="country" & class="country" <br>
+
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/sounakkar/jscountrytostate@main/autocountry2state.js"> </script> 
+
+<br>
 
 Only some States against country are added feel free to add states of the indexed countries
 # Countries and indexes
