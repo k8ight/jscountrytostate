@@ -267,8 +267,10 @@ function setcountry(countryname, index) {
 	}
 	//countryoption += "states['"+index+"']=new Array("") ; <br>"; 
 }
-document.getElementById("country").innerHTML = countryoption;
-
+document.getElementById("country");
+document.querySelectorAll('.country').forEach(function(el) {
+    el.innerHTML = countryoption;
+});
 
 
 document.getElementById("country").addEventListener("click", function() {
